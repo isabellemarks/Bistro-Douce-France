@@ -1,0 +1,174 @@
+body {
+	margin: 0px;
+	text-align: justify;
+	font-family: Trebuchet, "Century Gothic", Arial, "Comic Sams";
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	background-color: #EEEEEE;
+	padding: 2%;
+	color: #727272;
+}
+
+h1 {
+	color: #EA9629;
+	text-align: center;
+}
+
+.slide-bistro {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0;
+    /*border: 10px solid #fff;*/
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.itens > img {
+    width: 25%;
+    height: 500px;
+    margin: 0;
+    float:left;
+}
+
+.itens {
+    width: 400%;
+    -webkit-animation: hscroll 15s infinite;
+    -moz-animation: hscroll 15s infinite;
+    -ms-animation: hscroll 15s infinite;
+}
+
+@-webkit-keyframes hscroll {
+  0%   { margin-left: 0; }
+  30%  { margin-left: -100%; }
+  60% { margin-left: -200%; }
+  100%  { margin-left: 0; }
+}
+
+@-moz-keyframes hscroll {
+  0%   { margin-left: 0; }
+  30%  { margin-left: -100%; }
+  60% { margin-left: -200%; }
+  100%  { margin-left: 0; }
+}
+
+@-ms-keyframes hscroll {
+  0%   { margin-left: 0; }
+  30%  { margin-left: -100%; }
+  60% { margin-left: -200%; }
+  100%  { margin-left: 0; }
+}
+
+#logo {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+
+#menu {
+	/*position: fixed;*/
+	background-color: #FFF;
+	text-align: center;
+}
+
+#menu a {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+
+#menu ul li a{
+	color: #727272;
+}
+
+#menu ul li a:hover {
+	color: #000;
+	font-weight: bold;
+	border-bottom: 3px solid #EA9629;
+}
+
+#quemsomos {
+	padding: 2%;
+}
+
+#indent{
+	text-indent: 2em;
+}
+
+#cardapio {
+	background-color: #EEEEEE;
+	padding: 2%;	
+}
+
+#cardapio a:visited {
+	color: #000;
+}
+
+#cardapio a {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+}
+
+#cardapio a:hover {
+	color: #EA9629;
+	font-weight: bold;
+	border-bottom: 1px solid #EA9629;
+}
+
+#fotos {
+	padding: 2%;
+	text-align: center;
+}
+
+#fotos img {
+	border: 2px solid #EA9629;
+	width: 20%;
+	height: 35%;
+}
+
+/*pagina clientes*/
+#clientes {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2%;
+}
+
+#clientes img {
+	border: 1px solid #EA9629;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+/*pagina delicias*/
+#delicias {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2%;
+}
+
+#delicias img {
+	border: 1px solid #EA9629;
+	padding-right: 2%;
+	padding-left: 2%;
+	width: 20%;
+	height: 25%;
+}
